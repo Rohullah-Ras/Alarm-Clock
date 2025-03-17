@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b809a80e09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+    <dialogue class="dialogue" id="js--dialogue"></dialogue>
+    <dialogue class="dialogue" id="js--dialogue-T">De wakker is out</dialogue>
+    <article class="alarm">
+        <header class="alarm__top">
+            <input class="alarm__toggle  " type="checkbox" name="" id="js--toggle" tabindex="0">
+            <h1 class="alarm__heading">
+                <span id="js--time-hour">00</span>
+                <span>:</span>
+                <span id="js--time-minute">00</span>
+            </h1>
+        </header>
+        <section class="alarm__bottom">
+            <div class="alarm__wrapper">
+                <button id="js--hour-up" class="alarm__button">
+                    <i class="fa-solid fa-caret-up"></i>
+                </button>
+                <button id="js--hour-down" class="alarm__button">
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="alarm__wrapper">
+                <button id="js--minute-up" class="alarm__button">
+                    <i class="fa-solid fa-caret-up"></i>
+                </button>
+                <button id="js--minute-down" class="alarm__button">
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+
+
+        </section>
+
+    </article>
+</body>
+
+<footer class="footer">Audio by <a href=" https://freesound.org/people/greenworm/sounds/501880/"> https://freesound.org/people/greenworm/sounds/501880/</a></footer>
+
+</html>
